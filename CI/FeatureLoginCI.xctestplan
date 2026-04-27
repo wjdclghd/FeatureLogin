@@ -1,0 +1,39 @@
+{
+  "configurations" : [
+    {
+      "id" : "EC792295-DBC1-455E-9ECB-CEA1E62A121F",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:FeatureLoginCI.xcodeproj",
+      "identifier" : "55B0AF8C2F9F64AB006E43AF",
+      "name" : "FeatureLoginCI"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:FeatureLoginCI.xcodeproj",
+        "identifier" : "55B0AF992F9F64AB006E43AF",
+        "name" : "FeatureLoginCITests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:FeatureLoginCI.xcodeproj",
+        "identifier" : "55B0AFA32F9F64AB006E43AF",
+        "name" : "FeatureLoginCIUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
